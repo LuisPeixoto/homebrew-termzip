@@ -10,6 +10,8 @@ cask "termzip" do
   desc "Terminal with command blocks, split panes and a WebAssembly plugin sandbox"
   homepage "https://github.com/LuisPeixoto/TermZip"
 
+  depends_on :macos
+
   app "TermZip.app"
 
   zap trash: [
