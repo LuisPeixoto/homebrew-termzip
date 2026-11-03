@@ -1,9 +1,9 @@
 cask "termzip" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "80e3e625145bcfca792bc3a4768406b652fee81561704fec1fb4501ac03e8ec0",
-         intel: "ef19118f2f8004bf2ba556bd89b7ac09f3bfa68c09e896e760831d3a79bf06b9"
+  version "1.0.1"
+  sha256 arm:   "d0379fa191c3ba37be071163dee43756f70ccde97fdb2153b717438b6ef8b3ae",
+         intel: "77341334c3c847708c1ff8d0b90241fcdc15ce3263610432e228069124228d22"
 
   url "https://github.com/LuisPeixoto/TermZip/releases/download/v#{version}/TermZip_#{version}_#{arch}.dmg"
   name "TermZip"
